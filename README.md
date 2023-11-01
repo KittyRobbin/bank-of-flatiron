@@ -1,21 +1,14 @@
 # Bank of Flatiron
 
 Welcome to the Bank of Flatiron, where you can trust us with all your financial
-data! Use the below gif as an example of how the app should function.
-
-![demo](https://curriculum-content.s3.amazonaws.com/phase-2/phase-2-code-challenge-bank-of-flatiron/demo.gif)
-
-> To view in VSCode, right click on the README.md file and select "Open Preview".
+data! 
 
 ## Instructions
 
 For this project, you’ll be building out a React application that displays a
 list of your recent bank transactions, among other features.
 
-Part of what this code challenge is testing is your ability to follow given
-instructions. While you will definitely have a significant amount of freedom in
-how you implement the features, be sure to carefully read the directions for
-setting up the application.
+One of the key aspects being evaluated in this code challenge is your ability to follow provided instructions. While you have freedom in implementing the features, it is important to thoroughly read and follow the provided setup guidelines.
 
 ## Setup
 
@@ -40,8 +33,7 @@ As a user, I should be able to:
 
 - See a table of the transactions.
 - Fill out and submit the form to add a new transaction. This should add the new
-  transaction to the table **as well as post the new transaction to the backend
-  API for persistence**.
+  transaction to the table **the new transaction does not have to be persisted to the backend*
 - Filter transactions by typing into the search bar. Only transactions with a
   description matching the search term should be shown in the transactions
   table.
@@ -104,25 +96,23 @@ json
 }
 
 
-## Advanced Deliverables
+## Author
 
-These deliverables are not required to pass the code challenge, but if you have
-the extra time, they are a recommended way to
-enhance your skills.
+-[Elizabeth](https://github.com/KittyRobbin)
 
-> Note: If you are going to attempt these advanced deliverables, please be sure
-> to have a working commit with all the Core Deliverables first!
+## Technologies Used
 
-As a user, I should be able to:
+The project was built using the following technologies:
 
-- Sort transactions alphabetically by category or description.
-- Delete a transaction which will remove it from the table and delete it from the backend.
+- React.js
+- Node.js
+- JSON Server
+- HTML/CSS
+- GitHub
 
-### Endpoints for Advanced Deliverables
+## contribution
 
-#### DELETE /transactions/:id
+-Daniel Karanja(https://github.com/Daniel-Karanja)
 
-Example Response:
 
-json
-{}
+
